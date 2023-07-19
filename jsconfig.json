@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "jsconfig.json/*": ["./src/*"]
+      // "/": ["./*"],
+      "@home": ["./components/Home/*"],
+      "@components": ["./components/*"],
+      "@pages": ["./pages/*"],
+      "@styles": ["./styles/*"]
     }
   }
 }
