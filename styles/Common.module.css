@@ -4,27 +4,119 @@
   width: 100%;
   position: absolute;
   top: 0;
-  padding: 30px;
+  padding: 2% 18%;
   display: flex;
   z-index: 1;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-  margin-left: 10%;
+  width: 20%;
 }
 .menuBtn {
   display: flex;
-  position: relative;
-  margin-left: auto;
-  font-size: 14px;
-  margin-right: 10%;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 10%;
+  width: 10%;
   white-space: nowrap;
   font-family: 'Poppins', sans-serif;
 }
+.menuBtn p {
+  font-size: 1.4rem;
+}
+.menuWhite {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10%;
+  width: 15%;
+  white-space: nowrap;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(240, 243, 246);
+  border-radius: 20px;
+  color: black;
+}
 
-.arrow {
-  display: block;
-  margin-top: 7.5%;
-  margin-left: 20%;
+/* Footer*/
+
+.footer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.footer_data {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 18%;
+  width: 100%;
+}
+.sitePages {
+  color: black;
+}
+.page_Title,
+.social_linksH3,
+.headquater_footer {
+  color: #9f9f9f;
+  font-size: 2.2rem;
+  margin: 8% 0;
+  font-weight: 400;
+}
+.pageH2:hover {
+  color: #857aeb;
+}
+.social_links {
+  color: black;
+  font-size: 4.2rem;
+}
+.socialH3 {
+  color: #9f9f9f;
+  font-size: 2.2rem;
+}
+.HeadH2 {
+  font-size: 4.2rem;
+  font-weight: 400;
+  color: black;
+}
+.pageH2 {
+  padding-bottom: 5%;
+  font-size: 4.2rem;
+  font-weight: 400;
+  color: black;
+}
+
+.facebook_img,
+.insta_img,
+.linkedin_img,
+.youtube_img {
+  color: black;
+  stroke: black;
+  transition: 0.3s all ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 4%;
+  width: 100%;
+}
+.facebook_link:hover .facebook_img {
+  stroke: #4267b2;
+  color: #4267b2;
+}
+.instagram_link:hover .insta_img {
+  stroke: #c13584;
+  color: #c13584;
+}
+
+.linkedin_link:hover .linkedin_img {
+  stroke: #0a66c2;
+  color: #0a66c2;
+}
+
+.youtube_link:hover .youtube_img {
+  stroke: #cd201f;
+  color: #cd201f;
 }

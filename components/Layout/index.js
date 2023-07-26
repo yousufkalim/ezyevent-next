@@ -13,7 +13,7 @@ export const Layout = ({ children }) => {
       </Head>
 
       <div className='layout'>
-        <Header setOpenMenu={setOpenMenu} />
+        <Header setOpenMenu={setOpenMenu} openMenu={openMenu} />
         {openMenu && <Menu />}
         {children}
       </div>

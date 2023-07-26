@@ -10,37 +10,39 @@ import downloadLogo from '../../public/assets/img/common/download.svg';
 
 const Nevbar = () => {
   return (
-    <section className={styles.home}>
-      <nav className='nevContainer'>
-        <a href='#'>
-          <Image src={homeLogo} alt='Home Hero' />
-          Our Home
-        </a>
-        <a href='#'>
-          {' '}
-          <Image src={aboutLogo} alt='Home Hero' />
-          About us
-        </a>
-        <a href='#'>
-          {' '}
-          <Image src={easyUseLogo} alt='Home Hero' />
-          Easy Use
-        </a>
-        <a href='#'>
-          {' '}
-          <Image src={usersLogo} alt='Home Hero' />
-          Two Users
-        </a>
-        <a href='#'>
-          {' '}
-          <Image src={galleryLogo} alt='Home Hero' />
-          Gallery
-        </a>
-        <a href='#'>
-          {' '}
-          <Image src={downloadLogo} alt='Home Hero' />
-          Download
-        </a>
+    <section className={styles.nevContainer}>
+      <nav className={styles.nevBar}>
+        <div className={styles.main_div}>
+          <a href='#' className={styles.hometag}>
+            <img src={homeLogo} alt='Home Hero' />
+            Our Home
+          </a>
+          <a href='#' className={styles.hometag}>
+            {' '}
+            <Image src={aboutLogo} alt='Home Hero' />
+            About us
+          </a>
+          <a href='#' className={styles.hometag}>
+            {' '}
+            <Image src={easyUseLogo} alt='Home Hero' />
+            Easy Use
+          </a>
+          <a href='#' className={styles.hometag}>
+            {' '}
+            <Image src={usersLogo} alt='Home Hero' />
+            Two Users
+          </a>
+          <a href='#' className={styles.hometag}>
+            {' '}
+            <Image src={galleryLogo} alt='Home Hero' />
+            Gallery
+          </a>
+          <a href='#' className={styles.hometag}>
+            {' '}
+            <Image src={downloadLogo} alt='Home Hero' />
+            Download
+          </a>
+        </div>
       </nav>
     </section>
   );

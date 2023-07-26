@@ -1,21 +1,24 @@
 import React from 'react';
 import Image from 'next/image';
 import Style from '../../styles/Common.module.css';
-import logoWhite from '../../public/assets/img/common/Logo-wh.svg';
+import LogoWhiteImage from '../../public/assets/img/common/Logo-wh.svg';
 import menuArrow from '../../public/assets/img/common/menu-arrow.svg';
+// import { ReactComponent as MenuArrow } from '../../public/assets/img/common/menu-arrow.svg';
 
-const Header = ({ setOpenMenu }) => {
+const Header = ({ openMenu, setOpenMenu }) => {
   return (
     <header className={Style.header}>
       <div className={Style.logo}>
-        <a href='#'>
-          <Image src={logoWhite} alt='Logo' />
-        </a>
+        <img src={LogoWhiteImage} alt='Logo' />
       </div>
-      <div className={Style.menuBtn} onClick={() => setOpenMenu((prevState) => !prevState)}>
+      <div
+        className={openMenu ? Style.menuWhite : Style.menuBtn}
+        onClick={() => setOpenMenu((prevState) => !prevState)}
+      >
         {' '}
-        Main Menu
+        <p>{openMenu ? 'back to home' : 'Main Menu'}</p>
         <Image src={menuArrow} className={Style.arrow} alt='Menu Arrow' />
+        {/* <MenuArrow /> */}
       </div>
     </header>
   );

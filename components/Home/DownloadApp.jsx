@@ -1,21 +1,33 @@
 import React from 'react';
 import styles from '../../styles/Home.module.css';
+import Image from 'next/image';
+import bgImage from '../../public/assets/img/home/downloadbg.png';
+import phoneDownload from '../../public/assets/img/home/phoneDownload.png';
+import apple from '../../public/assets/img/common/Home-Apple-download.png';
+import google from '../../public/assets/img/common/Home-Play-store-Download.png';
 
 const DownloadApp = () => {
   return (
-    <section className={styles.home}>
-      <div className='downloadContainer'>
-        <h3>Download Now !</h3>
-        <h2>Embark on Your Ezyevent Journey</h2>
-        <p>
-          Welcome to the world of Ezyevent, where we transform your event dreams into extraordinary
-          realities. With our innovative platform, planning and organizing events become a seamless
-          and enjoyable experience
-        </p>
-      </div>
-      <div className='downloadImg'>
-        <img className='appleDownload'></img>
-        <img className='playStoreDownload'></img>
+    <section className={styles.downloadapp_container}>
+      <Image className={styles.bgImage} src={bgImage} alt='About Ezy Event' />
+
+      <div className={styles.download_data_container}>
+        <div className={styles.download_text_container}>
+          <h3 className={styles.downloadH3}>Download Now !</h3>
+          <h2 className={styles.downloadH2}>Embark on Your Ezyevent Journey</h2>
+          <p className={styles.downloadp}>
+            Welcome to the world of Ezyevent, where we transform <br /> your event dreams into
+            extraordinary realities. With <br /> innovative platform, planning and organizing events{' '}
+            <br />
+            become a seamless and enjoyable experience
+          </p>
+
+          <div className={styles.dIcon_container}>
+            <Image src={apple} />
+            <Image src={google} />
+          </div>
+        </div>
+        <Image className={styles.phoneDownload} src={phoneDownload} alt='About Ezy Event' />
       </div>
     </section>
   );
