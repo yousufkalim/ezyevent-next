@@ -1,0 +1,198 @@
+.about_section {
+  color: black;
+  height: 100vh;
+  width: 100vw;
+  padding: 0 18%;
+}
+.data_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.about_heading {
+  font-family: 'SignPainter HouseScript', sans-serif;
+  font-weight: 400;
+  font-size: 20rem;
+  color: #857aeb;
+}
+.about_para {
+  color: #9f9f9f;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+.strong_color {
+  color: #242424;
+}
+.downloadLogos {
+  display: flex;
+  padding: 3% 0 0 0;
+  gap: 3%;
+}
+
+/* Intresting About Section */
+.Intresting_About {
+  height: 100vh;
+  width: 100%;
+  padding: 0 18%;
+}
+.img_container {
+  display: flex;
+  justify-content: center;
+}
+.int_data_container {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding: 5% 0 0 0;
+}
+.int_heading {
+  color: black;
+  font-size: 6.2rem;
+  line-height: 74.4px;
+  font-weight: 600;
+}
+.heading_span {
+  color: #857aeb;
+}
+.int_Para {
+  color: #9f9f9f;
+  font-size: 2rem;
+  line-height: 30px;
+}
+.fratures {
+  display: flex;
+  justify-content: space-between;
+  color: #242424;
+}
+.feature1 {
+  display: flex;
+  flex-direction: column;
+  margin: 7% 0 0 0;
+}
+.feature1 h2 {
+  font-size: 2.4rem;
+  padding: 2% 0 0 0;
+}
+.feature1 p {
+  color: #9f9f9f;
+  font-size: 1.6rem;
+  padding: 2% 0 0 0;
+}
+
+/* Our Mission */
+.OurMission_Container {
+  width: 100%;
+  height: 100vh;
+  color: black;
+  padding: 0 18%;
+}
+.mission_headings {
+  display: flex;
+  justify-content: space-between;
+}
+.heading_setion1 h2 {
+  font-size: 6.2rem;
+  font-weight: 600;
+  line-height: 74.4px;
+}
+.heading_setion1 span {
+  color: #857aeb;
+}
+
+.shape {
+  clip-path: circle(22% at 100% 100%);
+  background-color: #857aeb;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: none;
+  border-radius: 0 0 20px;
+  transition: 0.5s all ease-in-out;
+}
+.shadow {
+  clip-path: circle(23% at 98% 98%);
+  background-color: rgb(133, 122, 235, 30%);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: none;
+  border-radius: 0 0 20px;
+  transition: 0.5s all ease-in-out;
+}
+.heading_section2 {
+  position: relative;
+  z-index: 1;
+  width: 47%;
+}
+.heading_section2 h3 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 38.4px;
+  padding-bottom: 4%;
+}
+.heading_section2 p {
+  color: #9f9f9f;
+  font-size: 2rem;
+  line-height: 30px;
+}
+.Para_div {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  color: #9f9f9f;
+  font-size: 2rem;
+}
+.p_color {
+  color: #857aeb;
+  font-style: italic;
+}
+.Para_div p {
+  padding: 10% 0 0 0;
+}
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  gap: 6%;
+  padding: 6% 0 0 0;
+}
+
+/* our Founders  */
+
+.OurFounders_Container {
+  width: 100%;
+  height: 100vh;
+  padding: 0 18%;
+  color: black;
+}
+.founders_heading {
+  font-size: 6.2rem;
+  font-weight: 600;
+}
+.founders_heading span {
+  color: #857aeb;
+}
+.ceo_para {
+  color: #9f9f9f;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.imageDiv {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 3%;
+}
+.Adeel {
+  font-size: 2rem;
+  text-align: center;
+  padding: 4% 0 0 0;
+}

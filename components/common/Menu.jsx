@@ -1,10 +1,9 @@
 import React from 'react';
-import Image from 'next/image';
 import styles from '../../styles/Home.module.css';
-import facebook from '../../public/assets/img/common/facebook.svg';
-import youtube from '../../public/assets/img/common/youtube.svg';
-import instagram from '../../public/assets/img/common/instagram.svg';
-import linkedin from '../../public/assets/img/common/linkedin.svg';
+import { ReactComonent as Facebook } from '../../public/assets/img/common/facebook.svg';
+import { ReactComonent as Youtube } from '../../public/assets/img/common/youtube.svg';
+import { ReactComonent as Instagram } from '../../public/assets/img/common/instagram.svg';
+import { ReactComonent as Linkedin } from '../../public/assets/img/common/linkedin.svg';
 
 const Menu = () => {
   return (
@@ -12,39 +11,39 @@ const Menu = () => {
       <div className={styles.mainMenu}>
         <ul className={styles.listMenu}>
           <li>
-            <a href='#'>Homepage</a>
+            <a href='/'>Homepage</a>
             <hr className={styles.hrLine} />
           </li>
           <li>
-            <a href='#'>Event Organiser</a>
+            <a href='/eventorganizer'>Event Organiser</a>
             <hr className={styles.hrLine} />
           </li>
           <li>
-            <a href='#'>Service Provider</a>
+            <a href='/serviceprovider'>Service Provider</a>
             <hr className={styles.hrLine} />
           </li>
           <li>
-            <a href='#'>About us</a>
+            <a href='/aboutus'>About us</a>
             <hr className={styles.hrLine} />
           </li>
           <li>
-            <a href='#'>Contact us</a>
+            <a href='/contactus'>Contact us</a>
             <hr className={styles.hrLine} />
           </li>
         </ul>
 
         <div className={styles.socialLinks}>
-          <a href='#' class='facebook'>
-            <Image src={facebook} alt='Logo' />
+          <a href='#'>
+            <Facebook alt='Logo' />
           </a>
-          <a href='#' class='fa fa-youtube'>
-            <Image src={youtube} alt='Logo' />
+          <a href='#'>
+            <Youtube alt='Logo' />
           </a>
-          <a href='#' class='fa fa-instagram'>
-            <Image src={instagram} alt='Logo' />
+          <a href='#'>
+            <Instagram alt='Logo' />
           </a>
-          <a href='#' class='fa fa-linkedin'>
-            <Image src={linkedin} alt='Logo' />
+          <a href='#'>
+            <Linkedin alt='Logo' />
           </a>
         </div>
       </div>

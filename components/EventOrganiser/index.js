@@ -1,3 +1,11 @@
+import HeroEvent from './EventOrgniserHero';
+// import Nevbar from './Nevbar';
+
 export default function EventOrganiser() {
-  return <div>Event Organizer Page</div>;
+  return (
+    <div>
+      <HeroEvent />
+      {/* <Nevbar /> */}
+    </div>
+  );
 }

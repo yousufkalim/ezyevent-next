@@ -23,8 +23,8 @@ const DownloadApp = () => {
           </p>
 
           <div className={styles.dIcon_container}>
-            <Image src={apple} />
-            <Image src={google} />
+            <Image src={apple} alt='Apple App Store Link' />
+            <Image src={google} alt='Play Store Link' />
           </div>
         </div>
         <Image className={styles.phoneDownload} src={phoneDownload} alt='About Ezy Event' />

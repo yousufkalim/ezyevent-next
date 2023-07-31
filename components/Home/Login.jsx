@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../../styles/Home.module.css';
 import Image from 'next/image';
-import cardArrow from '../../public/assets/img/common/menu-arrow.svg';
+import { ReactComonent as CardArrow } from '../../public/assets/img/common/menu-arrow.svg';
 import userLogin from '../../public/assets/img/home/userLogin.png';
 import vendorLogin from '../../public/assets/img/home/verdorLogin.png';
 
@@ -19,7 +19,7 @@ const User = () => {
               Login as a{' '}
               <span className={styles.spanColor}>
                 User
-                <Image className={styles.cardArrow} src={cardArrow} alt='About Ezy Event' />
+                <CardArrow className={styles.cardArrow} alt='About Ezy Event' />
               </span>{' '}
             </h3>
             <p className={styles.paraCard1}>
