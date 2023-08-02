@@ -3,17 +3,20 @@
   height: 100vh;
   color: black;
   padding: 0 18%;
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: -2;
+  overflow: hidden;
 }
 .headings_containers {
   display: flex;
   justify-content: center;
   margin-bottom: -15%;
-  padding-top: 15%;
+  padding-top: 20%;
+  z-index: 2;
 }
 .main_heading {
   font-family: 'SignPainter HouseScript', sans-serif;
@@ -21,7 +24,215 @@
   font-weight: 400;
   font-size: 20rem;
   line-height: 128.6px;
+  text-align: center;
 }
 .heading_color {
   color: #ffa958;
+}
+.shape {
+  clip-path: circle(41% at 50% 140%);
+  background-color: #ffa958;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.shadow {
+  clip-path: circle(44% at 50% 140%);
+  background-color: rgb(255, 169, 88, 30%);
+  height: 100%;
+  width: 100%;
+  bottom: 0%;
+  position: absolute;
+}
+.object_container {
+  z-index: 2;
+}
+.star_img_container {
+  position: absolute;
+  z-index: 4;
+  top: 40%;
+  left: 22%;
+}
+.star_img_c {
+  position: absolute;
+  z-index: 4;
+  bottom: 15%;
+  right: 20%;
+}
+.bar_arrow_img {
+  position: absolute;
+  z-index: 4;
+  bottom: 25%;
+  right: 19%;
+  /* background-color: #857aeb; */
+}
+.project_done_box {
+  background-color: white;
+  z-index: 4;
+  width: 11%;
+  display: flex;
+  position: absolute;
+  top: 56%;
+  left: 30%;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+.project_text_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+}
+.project_text_box h3 {
+  font-size: 2.5rem;
+  font-family: 'DM Sans', sans-serif;
+}
+.project_text_box p {
+  font-size: 1.8rem;
+}
+.success_rate_box {
+  background-color: white;
+  z-index: 4;
+  width: 11%;
+  display: flex;
+  position: absolute;
+  bottom: 15%;
+  right: 29%;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+.success_text_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+}
+.success_text_box h3 {
+  font-size: 2.5rem;
+  font-family: 'DM Sans', sans-serif;
+}
+.success_text_box p {
+  font-size: 1.8rem;
+}
+/* ============Yes Section ============ */
+
+.yes_section {
+  width: 100%;
+  height: 100vh;
+  padding: 0 18%;
+  position: relative;
+}
+.yes_data_container h2 {
+  font-size: 6.2rem;
+  font-weight: 600;
+  width: 50%;
+  padding: 10% 0 0 0;
+  line-height: 74.4px;
+  z-index: 4;
+}
+.yes_span {
+  color: #ffa958;
+}
+.real_span {
+  color: #857aeb;
+}
+.yes_data_container p {
+  color: #9f9f9f;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.create_event_container {
+  display: flex;
+  padding: 5% 0 0 0;
+  gap: 5%;
+  z-index: 5;
+}
+.event_data h2 {
+  font-size: 4.2rem;
+  font-weight: 600;
+}
+.event_data h3 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #9f9f9f;
+  margin-top: 2%;
+}
+.black_span {
+  color: black;
+}
+.create_event_btn {
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 20%;
+  color: #857aeb;
+  padding: 8% 0 0 5%;
+}
+.star_section1 {
+  position: absolute;
+  z-index: 4;
+  bottom: 8%;
+  left: 20%;
+}
+.star_section2 {
+  position: absolute;
+  z-index: 4;
+  top: 10%;
+  right: 20%;
+}
+.shadow_container {
+  clip-path: circle(44% at 50% -53%);
+  background-color: rgb(255, 169, 88, 30%);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: -3;
+}
+.shape_container {
+  clip-path: circle(41% at 50% -53%);
+  background-color: #ffa958;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/*===== Create Event Download Section========*/
+
+.org_download_section {
+  width: 100%;
+  height: 100vh;
+  padding: 6% 18% 0 18%;
+}
+.orgdownload_text_container {
+  width: 100%;
+}
+.orgdownloadH2 {
+  color: black;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 600;
+}
+.orgdownloadH2 span {
+  color: #ffa958;
+}
+.dimage_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 3% 0 0 20%;
+}
+.dIcon_container {
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+  margin: 0 0 4% 4%;
+}
+.apple_img {
+  margin-bottom: 4%;
 }

@@ -173,11 +173,11 @@
   padding: 0 18%;
   color: black;
 }
-.founders_heading {
+
+.founder_headingMain {
   font-size: 6.2rem;
-  font-weight: 600;
 }
-.founders_heading span {
+.founder_headingMain span {
   color: #857aeb;
 }
 .ceo_para {
@@ -195,4 +195,16 @@
   font-size: 2rem;
   text-align: center;
   padding: 4% 0 0 0;
+  margin: 7% 0 0 0;
+}
+.Adeel h3 {
+  font-size: 2.4rem;
+  color: black;
+  font-family: 'Raleway';
+}
+.Adeel h4 {
+  padding: 2% 0 0 0;
+  font-size: 1.6rem;
+  font-family: 'Raleway';
+  color: #857aeb;
 }

@@ -9,7 +9,7 @@ import playStoreDownload from '../../public/assets/img/home/Home-Play-store-Down
 
 const About = () => {
   return (
-    <section className={styles.aboutContainer}>
+    <section className={styles.aboutContainer} id='about'>
       <div className={styles.aboutDiv}>
         <h2 className={styles.aboutHeading}>
           About <span className={styles.esyText}>Ezy</span> Event{' '}

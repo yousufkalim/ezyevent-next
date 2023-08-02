@@ -11,11 +11,11 @@ export const Layout = ({ children }) => {
       <Head>
         <title>Ezy Event</title>
       </Head>
-
-      <div className='layout'>
+      {/* togggle menu function  */}
+      <div className='menu'>
         <Header setOpenMenu={setOpenMenu} openMenu={openMenu} />
         {openMenu && <Menu />}
-        {children}
+        {!openMenu && children}
       </div>
     </>
   );
