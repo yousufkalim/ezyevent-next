@@ -24,6 +24,9 @@
   white-space: nowrap;
   font-family: 'Poppins', sans-serif;
 }
+.menuBtn {
+  cursor: pointer;
+}
 .menuBtn p {
   color: #ffffff;
   font-size: 1.4rem;

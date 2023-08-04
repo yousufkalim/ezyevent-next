@@ -1,0 +1,463 @@
+.sphero_section {
+  width: 100%;
+  height: 100vh;
+  color: black;
+  padding: 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  z-index: -2;
+  overflow: hidden;
+}
+.spheadings_containers {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20%;
+  z-index: 2;
+}
+.spmain_heading {
+  font-family: 'SignPainter HouseScript', sans-serif;
+  color: #857aeb;
+  font-weight: 400;
+  font-size: 20rem;
+  line-height: 128.6px;
+  text-align: center;
+}
+.spheading_color {
+  color: #8ed2fd;
+}
+.spshape {
+  clip-path: circle(41% at 50% 140%);
+  background-color: #8ed2fd;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.spshadow {
+  clip-path: circle(44% at 50% 140%);
+  background-color: rgb(142, 210, 253, 30%);
+  height: 100%;
+  width: 100%;
+  bottom: 0%;
+  position: absolute;
+}
+.spobject_container {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+}
+.spproject_done_box {
+  background-color: white;
+  z-index: 4;
+  width: 11%;
+  display: flex;
+  position: absolute;
+  top: 60%;
+  left: 31%;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+.spproject_text_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+}
+.spproject_text_box h3 {
+  font-size: 2.5rem;
+  font-family: 'DM Sans', sans-serif;
+}
+.spproject_text_box p {
+  font-size: 1.8rem;
+}
+.spsuccess_rate_box {
+  background-color: white;
+  z-index: 4;
+  width: 11%;
+  display: flex;
+  position: absolute;
+  bottom: 25%;
+  right: 29%;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+.spsuccess_text_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+}
+.spsuccess_text_box h3 {
+  font-size: 2.5rem;
+  font-family: 'DM Sans', sans-serif;
+}
+.spsuccess_text_box p {
+  font-size: 1.8rem;
+}
+
+/* ======== Create Profile ======== */
+
+.create_profile_section {
+  width: 100%;
+  height: 100vh;
+  padding: 5% 18% 0 18%;
+  position: relative;
+  overflow: hidden;
+}
+
+.create_profile_heading h2 {
+  color: black;
+  font-size: 6.2rem;
+  font-weight: 600;
+}
+.cp_blue {
+  color: #8ed2fd;
+}
+.cp_perp {
+  color: #857aeb;
+}
+.create_profile_heading p {
+  font-size: 2rem;
+  color: #9f9f9f;
+  font-weight: 500;
+}
+.inner_container {
+  display: flex;
+}
+
+.inner_data {
+  display: flex;
+  flex-direction: column;
+}
+.inner_data h3 {
+  font-size: 4.2rem;
+  font-weight: 600;
+  color: black;
+}
+.inner_data p {
+  color: #9f9f9f;
+  font-size: 2.8rem;
+  width: 95%;
+}
+.btn_container {
+  display: flex;
+  align-items: center;
+  background-color: #857aeb0d;
+  border: none;
+  border-radius: 100px;
+  width: 70%;
+}
+.input_createcp {
+  color: #857aeb;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+.input_createcp::placeholder {
+  color: #857aeb;
+  font-size: 1.6rem;
+  font-family: 'Poppins';
+}
+.btn_create {
+  color: white;
+  background-color: #857aeb;
+  border: none;
+  border-radius: 100px;
+  padding: 12px 30px;
+}
+
+.cpgirl_img {
+  position: absolute;
+  z-index: 4;
+  bottom: -0;
+}
+.cp_text_box {
+  background-color: white;
+  z-index: 4;
+  width: 17%;
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  right: 25%;
+  top: 30%;
+}
+.cp_text_box p {
+  font-size: 1.8rem;
+  width: 250%;
+}
+.cp_perp {
+  color: #857aeb;
+}
+.cp_login_box {
+  background-color: white;
+  z-index: 4;
+  width: 10%;
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  right: 55%;
+  top: 74%;
+}
+.cpshape {
+  clip-path: circle(45% at 95% 135%);
+  background-color: #8ed2fd;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.cpshadow {
+  clip-path: circle(50% at 98% 135%);
+  background-color: rgb(142, 210, 253, 30%);
+  height: 100%;
+  width: 100%;
+  bottom: 0%;
+  position: absolute;
+}
+.star1 {
+  position: absolute;
+  z-index: 4;
+  top: 10%;
+  right: 18%;
+}
+.star2 {
+  position: absolute;
+  z-index: 4;
+  bottom: 15%;
+  left: 20%;
+}
+/* ====== Exclusive Features ====== */
+
+.exclusive_section {
+  width: 100%;
+  height: 100vh;
+  padding: 5% 18% 0 18%;
+}
+.ex_heading h2 {
+  font-size: 6.2rem;
+  font-weight: 600;
+  width: 50%;
+  line-height: 74.4px;
+}
+.ex_heading p {
+  font-size: 2rem;
+  font-weight: 500;
+  width: 50%;
+  color: #9f9f9f;
+  line-height: 32px;
+}
+.ex_heading {
+  display: flex;
+  gap: 15%;
+}
+.feature_container {
+  display: flex;
+  width: 100%;
+  height: 55%;
+  justify-content: space-between;
+  overflow: hidden;
+  /* flex-direction: column; */
+  margin: 5% 0 0 0;
+}
+.inner_features {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: none;
+  height: 100%;
+  /* padding: 1% 0; */
+  gap: 4%;
+}
+.feature_cp {
+  width: 48%;
+  background-color: #857aeb;
+  padding: 4%;
+  border-radius: 10px;
+  height: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.feature_cp h2 {
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 600;
+  margin-top: 5%;
+}
+.feature_cp p {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 400;
+}
+.feature_ta {
+  width: 48%;
+  background-color: #38be67;
+  padding: 4%;
+  border-radius: 10px;
+  height: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.feature_ta h2 {
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 600;
+  margin-top: 5%;
+}
+.feature_ta p {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 400;
+}
+.feature_chat {
+  width: 100%;
+  background-color: #5fa7fd;
+  padding: 4%;
+  border-radius: 10px;
+  height: 45%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 400;
+}
+.feature_chat h2 {
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 600;
+  margin-top: 2%;
+}
+.feature_chat p {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 400;
+}
+.feature_work {
+  width: 33%;
+  background-color: orange;
+  padding: 4%;
+  border-radius: 10px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* height: 00px; */
+}
+.feature_work h2 {
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 600;
+  margin-top: 5%;
+}
+.feature_work p {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 400;
+}
+.CpShadow {
+  position: absolute;
+  right: 5%;
+  top: 0;
+  opacity: 10%;
+}
+.taShadow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 10%;
+}
+.chShadow {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.woShadow {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* ===== Download Section ===== */
+.spDownload_section {
+  width: 100%;
+  height: 100vh;
+  padding: 0 18% 0 18%;
+}
+.dwonload_data_container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+  position: relative;
+}
+.dwonload_text_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.dwonload_data_container h3 {
+  font-size: 4.2rem;
+  font-weight: 600;
+  color: #857aeb;
+}
+.dwonload_data_container h2 {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: black;
+}
+.dwonload_data_container p {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #9f9f9f;
+  padding-top: 3%;
+}
+.dIcon_container {
+  display: flex;
+  gap: 5%;
+  padding-top: 5%;
+}
+.phone_container {
+  display: flex;
+  align-items: center;
+  /* background-color: #5fa7fd; */
+  width: 50%;
+  z-index: 5;
+}
+.phoneImg {
+  filter: drop-shadow(-33px 49px 28px #000);
+}
+.down_shape {
+  clip-path: circle(27% at 50% 50%);
+  background-color: #8ed2fd;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.down_shadow {
+  clip-path: circle(28% at 50% 50%);
+  background-color: rgb(142, 210, 253, 30%);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 15%;
+  position: absolute;
+  z-index: -2;
+}

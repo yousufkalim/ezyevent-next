@@ -74,15 +74,15 @@ const HeroSlider = () => {
         </h1>
       </div>
 
-      <div ref={sliderElementRef} className='keen-slider'>
+      <div ref={sliderElementRef} className='keen-slider' style={{ height: '100%' }}>
         <div className='keen-slider__slide'>
-          <Image src={slider1} alt='slider1' height={1000} width={1920} />
+          <Image src={slider1} className={styles.slider} alt='slider1' />
         </div>
         <div className='keen-slider__slide'>
-          <Image src={slider2} alt='slider2' height={1000} width={1920} />
+          <Image src={slider2} alt='slider2' className={styles.slider} />
         </div>
         <div className='keen-slider__slide'>
-          <Image src={slider3} alt='slider3' height={1000} width={1920} />
+          <Image src={slider3} alt='slider3' className={styles.slider} />
         </div>
       </div>
     </section>

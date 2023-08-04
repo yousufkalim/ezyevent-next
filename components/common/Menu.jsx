@@ -10,23 +10,23 @@ const Menu = () => {
     <section className={styles.menuContainer}>
       <div className={styles.mainMenu}>
         <ul className={styles.listMenu}>
-          <li>
+          <li className={styles.list_animation}>
             <a href='/'>Homepage</a>
             <hr className={styles.hrLine} />
           </li>
-          <li>
+          <li className={styles.list_animation}>
             <a href='/eventorganizer'>Event Organiser</a>
             <hr className={styles.hrLine} />
           </li>
-          <li>
+          <li className={styles.list_animation}>
             <a href='/serviceprovider'>Service Provider</a>
             <hr className={styles.hrLine} />
           </li>
-          <li>
+          <li className={styles.list_animation}>
             <a href='/aboutus'>About us</a>
             <hr className={styles.hrLine} />
           </li>
-          <li>
+          <li className={styles.list_animation}>
             <a href='/contactus'>Contact us</a>
             <hr className={styles.hrLine} />
           </li>
