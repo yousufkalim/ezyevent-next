@@ -1,6 +1,6 @@
 import HomePage from 'components/Home';
 import 'styles/Home.module.css';
-export default function Home() {
+export default function Home(props) {
   return (
     <div className='container'>
       <HomePage />

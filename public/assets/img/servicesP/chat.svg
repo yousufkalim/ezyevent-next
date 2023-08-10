@@ -1,0 +1,16 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="50" height="50" rx="25" fill="white"/>
+<g clip-path="url(#clip0_4904_33419)">
+<path d="M33 15H17C15.9 15 15.01 15.9 15.01 17L15 35L19 31H33C34.1 31 35 30.1 35 29V17C35 15.9 34.1 15 33 15ZM20 22H30C30.55 22 31 22.45 31 23C31 23.55 30.55 24 30 24H20C19.45 24 19 23.55 19 23C19 22.45 19.45 22 20 22ZM26 27H20C19.45 27 19 26.55 19 26C19 25.45 19.45 25 20 25H26C26.55 25 27 25.45 27 26C27 26.55 26.55 27 26 27ZM30 21H20C19.45 21 19 20.55 19 20C19 19.45 19.45 19 20 19H30C30.55 19 31 19.45 31 20C31 20.55 30.55 21 30 21Z" fill="#5FA7FD"/>
+<path d="M33 15H17C15.9 15 15.01 15.9 15.01 17L15 35L19 31H33C34.1 31 35 30.1 35 29V17C35 15.9 34.1 15 33 15ZM20 22H30C30.55 22 31 22.45 31 23C31 23.55 30.55 24 30 24H20C19.45 24 19 23.55 19 23C19 22.45 19.45 22 20 22ZM26 27H20C19.45 27 19 26.55 19 26C19 25.45 19.45 25 20 25H26C26.55 25 27 25.45 27 26C27 26.55 26.55 27 26 27ZM30 21H20C19.45 21 19 20.55 19 20C19 19.45 19.45 19 20 19H30C30.55 19 31 19.45 31 20C31 20.55 30.55 21 30 21Z" fill="url(#paint0_linear_4904_33419)" fill-opacity="0.3"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_4904_33419" x1="34.2" y1="15" x2="9.4" y2="39.8" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_4904_33419">
+<rect width="24" height="24" fill="white" transform="translate(13 13)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,89 @@
+.contact_container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding: 0 18%;
+  overflow: hidden;
+  /* background: green; */
+}
+.map_img {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  /* background: red; */
+}
+.Map {
+  width: 100%;
+}
+
+.download_data_container {
+  position: relative;
+  height: 100%;
+  padding: 10% 0 0 0;
+}
+.Phone {
+  position: absolute;
+  filter: drop-shadow(-16px 16px 20px #000);
+}
+.form_data {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  color: white;
+  /* background-color: green; */
+}
+.phone_heading {
+  font-size: 4.2rem;
+  font-weight: 600;
+}
+.Contact_para {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.contact_form {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact_form label {
+  font-size: 2rem;
+  padding: 0;
+  /* background-color: red; */
+}
+.input_box {
+  background-color: inherit;
+  border: none;
+  /* margin: 10% 0 10% 0; */
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: white;
+}
+
+.input_box::placeholder {
+  color: antiquewhite;
+  opacity: 80%;
+}
+.feild {
+  margin: 10% 0 0 0;
+}
+.feild input {
+  margin: 4% 0 0 0;
+}
+.btn_container {
+  display: flex;
+  justify-content: end;
+  margin: 3% 0 0 0;
+}
+.btn_submit {
+  padding: 17px 50px;
+  border: none;
+  border-radius: 50px;
+  width: fit-content;
+}

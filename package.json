@@ -11,11 +11,22 @@
   "dependencies": {
     "eslint": "^8.45.0",
     "eslint-config-next": "^13.4.10",
+    "fullpage.js": "^4.0.20",
+    "gsap": "^3.12.2",
+    "keen-slider": "^6.8.6",
     "next": "13.4.10",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-scroll": "^1.8.9",
+    "react-use": "^17.4.0",
+    "react-use-scroll-snap": "^0.0.4",
+    "tweezer.js": "^1.5.0"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^13.4.10"
+    "@next/eslint-plugin-next": "^13.4.10",
+    "@svgr/webpack": "^5.5.0",
+    "babel-plugin-inline-react-svg": "^2.0.2",
+    "babel-plugin-styled-components": "^1.13.2",
+    "file-loader": "^6.2.0"
   }
 }
