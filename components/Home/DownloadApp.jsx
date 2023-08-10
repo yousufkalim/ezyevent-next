@@ -1,16 +1,13 @@
 import React from 'react';
 import styles from '../../styles/Home.module.css';
 import Image from 'next/image';
-import bgImage from '../../public/assets/img/home/downloadbg.png';
 import phoneDownload from '../../public/assets/img/home/phoneDownload.png';
 import apple from '../../public/assets/img/common/Home-Apple-download.png';
 import google from '../../public/assets/img/common/Home-Play-store-Download.png';
 
 const DownloadApp = () => {
   return (
-    <section className={styles.downloadapp_container}>
-      <Image className={styles.bgImage} src={bgImage} alt='About Ezy Event' />
-
+    <section className={`${styles.downloadapp_container} ${styles.section}`} id='section_download'>
       <div className={styles.download_data_container}>
         <div className={styles.download_text_container}>
           <h3 className={styles.downloadH3}>Download Now !</h3>

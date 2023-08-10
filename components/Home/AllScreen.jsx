@@ -14,7 +14,7 @@ import imgTen from '../../public/assets/img/home/imgTen.png';
 
 const AllScreen = () => {
   return (
-    <section className={styles.mainAll}>
+    <section className={`${styles.allScreen_section} ${styles.section}`}>
       <h2 className={styles.allHeading}>All Screen</h2>
       <div className={styles.imagesComtainer}>
         <div className={styles.imgOne}>

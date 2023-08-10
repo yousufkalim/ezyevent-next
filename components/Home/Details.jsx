@@ -6,7 +6,7 @@ import { ReactComonent as BtnArrow } from '../../public/assets/img/common/menu-a
 
 const Details = () => {
   return (
-    <section className={styles.detailsContainer}>
+    <section className={`${styles.details_section} ${styles.section}`} id='section_details'>
       <div className={styles.contactData}>
         <div className={styles.contentContainer}>
           <h3 className={styles.headingH3}>Ezy Event</h3>

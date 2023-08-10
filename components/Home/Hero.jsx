@@ -58,7 +58,7 @@ const HeroSlider = () => {
   }, []);
 
   return (
-    <section className={styles.hero} id='home'>
+    <section className={`${styles.hero} ${styles.section}`}>
       <div className={styles.headings}>
         <h2
           className={`${styles.heading1} ${heading1 ? styles.slideOut : ''}`}

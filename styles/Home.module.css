@@ -1,5 +1,19 @@
-.home {
-  position: relative;
+/* index home section */
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+  background-color: #f0f0f0;
 }
 /* Menu section */
 .menuContainer {
@@ -9,6 +23,7 @@
   width: 100%;
   padding: 0 18%;
 }
+
 .mainMenu {
   width: 100%;
   padding-top: 10%;
@@ -45,22 +60,33 @@
 }
 
 /* Nev Bar */
+
+.nevContainer {
+  position: relative;
+}
 .nevBar {
   display: flex;
   text-align: center;
   justify-content: center;
   border-radius: 100px;
   width: 100%;
-  height: 8vh;
+  height: 7vh;
   padding: 0 30px 0 30px;
+  position: fixed;
+  bottom: 4%;
+  z-index: 5;
 }
 .main_div {
-  width: 40%;
-  background-color: #857aeb;
+  width: 25%;
+  background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-radius: 100px;
+  color: #857aeb;
+}
+.main_div p {
+  display: none;
 }
 .hometag {
   width: 17%;
@@ -73,7 +99,7 @@
 /* Hero Section */
 .hero {
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: #857aeb;
 }
@@ -116,11 +142,15 @@
   transform: translateX(100%);
 }
 
-/* ================   About Section    == */
+/* ================   About Section    ================ */
 .aboutContainer {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   color: black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
 .aboutDiv {
   width: 100%;
@@ -193,13 +223,26 @@
   justify-content: center;
 }
 
-/* All Screens */
+/*=========== All Screens============== */
+.allScreen_section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
 .allHeading {
   text-align: center;
   color: black;
   font-weight: 600;
   font-size: 6.2rem;
-  margin: 0 0 3% 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5% 0 4% 0;
 }
 
 .imagesComtainer {
@@ -217,13 +260,14 @@
   size: 2rem;
   margin: 10% 0 0 0;
 }
-/*  Details & Contact Us button section */
+/* ====================== Details ====================== */
 
-.detailsContainer {
+.details_section {
   background-color: #857aeb;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
+  overflow: hidden;
 }
 .contactData {
   width: 100%;
@@ -271,10 +315,13 @@
 
 /* Login section */
 
-.loginDataContainer {
+.login_section {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding: 0 18%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
 .loginH2 {
   font-size: 6.2rem;
@@ -470,6 +517,7 @@
 }
 
 .links {
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -483,8 +531,10 @@
 
 .gallery_container {
   width: 100%;
-  height: 100vh;
-  padding: 0 18%;
+  height: 100%;
+  padding: 3% 18% 0 18%;
+  overflow: hidden;
+  background-color: white;
 }
 
 .headingh2 {
@@ -505,14 +555,13 @@
 
 .downloadapp_container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: relative;
+  background-image: url(../public/assets/img/home/downloadbg.png);
+  background-size: 1920px 1080px;
+  overflow: hidden;
 }
-.bgImage {
-  position: absolute;
-  z-index: -1;
-  max-height: 100%;
-}
+
 .download_data_container {
   color: white;
   height: 100%;

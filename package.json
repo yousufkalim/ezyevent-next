@@ -9,13 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "aos": "^3.0.0-beta.6",
     "eslint": "^8.45.0",
     "eslint-config-next": "^13.4.10",
+    "fullpage.js": "^4.0.20",
+    "gsap": "^3.12.2",
     "keen-slider": "^6.8.6",
     "next": "13.4.10",
     "react": "^18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-scroll": "^1.8.9",
+    "react-use": "^17.4.0",
+    "react-use-scroll-snap": "^0.0.4",
+    "tweezer.js": "^1.5.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.4.10",

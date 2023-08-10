@@ -7,7 +7,7 @@ import vendorLogin from '../../public/assets/img/home/verdorLogin.png';
 
 const User = () => {
   return (
-    <section className={styles.loginDataContainer}>
+    <section className={`${styles.login_section} ${styles.section}`}>
       <h2 className={styles.loginH2}>
         Designed to be user-centric, for <br /> both organisers & service providers
       </h2>

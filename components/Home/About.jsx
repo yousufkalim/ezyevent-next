@@ -9,7 +9,7 @@ import playStoreDownload from '../../public/assets/img/home/Home-Play-store-Down
 
 const About = () => {
   return (
-    <section className={styles.aboutContainer} id='about'>
+    <section className={`${styles.aboutContainer} ${styles.section}`} id='section_about'>
       <div className={styles.aboutDiv}>
         <h2 className={styles.aboutHeading}>
           About <span className={styles.esyText}>Ezy</span> Event{' '}
@@ -69,19 +69,7 @@ const About = () => {
           <div className={styles.scrollBar}>
             <Image className={styles.scrollBarImg} src={scrollBar} alt='Scrool Bar' />
           </div>
-          <div
-            data-aos='slide-up'
-            data-aos-offset='200'
-            data-aos-delay='50'
-            data-aos-duration='1000'
-            data-aos-easing='ease-in-out'
-            data-aos-mirror='true'
-            data-aos-once='true'
-            data-aos-anchor-placement='bottom-top'
-            className={styles.scroll_down}
-          >
-            Scroll Down
-          </div>
+          <div>Scroll Down</div>
           <div className={styles.appDownloadDiv}>
             <div className={styles.appleDownload}>
               <Image src={appleDownload} alt='Apple Download Link' />

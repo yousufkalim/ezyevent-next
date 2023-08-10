@@ -5,7 +5,7 @@ import gallery from '../../public/assets/img/home/gallery.png';
 
 const User = () => {
   return (
-    <section className={styles.gallery_container}>
+    <section className={`${styles.gallery_container} ${styles.section}`} id='section_gallery'>
       <div className={styles.gallery_data}>
         <h2 className={styles.headingh2}>Our Gallery</h2>
         <p className={styles.gallery_para}>

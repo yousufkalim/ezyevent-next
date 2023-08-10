@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../../styles/Common.module.css';
+import sectionCSS from '../../styles/Home.module.css';
 import { ReactComonent as FacebookImg } from '../../public/assets/img/common/facebook.svg';
 import { ReactComponent as Instaimg } from '../../public/assets/img/common/instagram.svg';
 import { ReactComonent as LinkedinImg } from '../../public/assets/img/common/linkedin.svg';
@@ -7,7 +8,7 @@ import { ReactComonent as YoutubeImg } from '../../public/assets/img/common/yout
 
 const Footer = () => {
   return (
-    <section className={styles.footer}>
+    <section className={`${styles.footer} ${sectionCSS.section}`}>
       <div className={styles.footer_data}>
         <div className={styles.sitePages}>
           <h3 className={styles.page_Title}>WEBSITE PAGES</h3>
